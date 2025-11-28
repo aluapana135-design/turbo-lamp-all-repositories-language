@@ -9,9 +9,17 @@ if BUTTON == POWER:
 SELECT(POWER);
 menu = {
 "Reboot",
-"Reboot to BOOTLOOADER",
+"Reboot to BOOTLOADER",
 "update",
 "factory reset",
 "wipe cache",
 "Power off"
+}
+logic = {
+--reboot "boot.img"
+--reboot "BOOTLOADER"
+--update
+--reset
+--wipe cache
+--power off
 }
