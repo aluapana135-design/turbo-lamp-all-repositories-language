@@ -27,3 +27,7 @@ function refreshScreen() {
     // Atualiza a tela após desenhar
     swapDisplayBuffers();
 }
+Video.init()
+Video.setMode(width, height, depth)
+Video.drawPixel(x, y, color)
+Video.flipBuffer()
