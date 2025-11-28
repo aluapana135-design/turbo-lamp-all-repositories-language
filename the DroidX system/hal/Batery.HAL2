@@ -1,0 +1,7 @@
+package com.batery;
+
+BATERY_LEVEL == 1:
+shutdown();
+
+BATERY_LEVEL == 100:
+Power();
