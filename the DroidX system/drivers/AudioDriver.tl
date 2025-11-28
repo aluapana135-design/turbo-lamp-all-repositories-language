@@ -20,3 +20,7 @@ function play(buffer: AudioBuffer) {
     // Envia o áudio para o kernel processar
     sendBuffer(buffer);
 }
+Audio.init(samplerate)
+Audio.playStream(buffer)
+Audio.setVolume(level)
+Audio.shutdown()
